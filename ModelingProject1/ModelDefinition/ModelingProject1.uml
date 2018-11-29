@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="df482e11-3c01-4aa9-8f6f-d4fa39627be5"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="ee3661f3-c758-40c7-b3db-7b927f67e4cb"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="48f5e7bd-950e-41f0-a60c-e922c3f29571"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Camera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f24d1b5b-15ed-467f-a664-f686c9efbddf"
+              LastKnownName="Camera"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f812d87-1874-46f6-836b-8dd3baf59093"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ab19e953-458d-4e40-a744-b11142665992"
+                  name="Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="474305cb-94a3-4a92-a447-fe64e3aa56fe"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Chats"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5f0bbdce-7736-4738-b9b9-f4d52bb896f0"
+              LastKnownName="Chats"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d13c9a20-ba09-4056-b2df-e9ba9e3c1d33"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c34ea6c-22d9-4906-bfe2-a450b065264a"
+                  name="Chats"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2e33e194-f05c-41f6-983a-70f3599159b1"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Status"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dc675764-ccab-478e-afbf-cd3abb93d32c"
+              LastKnownName="Status"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7cb29d93-d831-4315-b898-18cb6636c8ca"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91ddbf76-4991-4c2e-8baa-d66993029653"
+                  name="Status"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5089723d-5715-443e-a210-f7ced62ea39a"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Calls"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ce80086f-cff7-4b42-b95b-4a01f7beafcc"
+              LastKnownName="Calls"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff5a7a12-15c9-406c-ab79-095a33a11f1c"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d5fe8f9-a1f2-4c77-87cc-dcb551c954d0"
+                  name="Calls"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cbaa36b1-89fc-4d99-9fae-fbaa7f34960f"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="New Group"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4f796706-9d63-4c71-89ed-a20b750775dc"
+              LastKnownName="New Group"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d64112d5-925f-4d4b-8a57-42d7c0d235f5"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="392f2af8-0835-4ea0-902d-850d57b951e6"
+                  name="New Group"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1d940177-4894-44cc-9b69-80ad6569d22b"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="New Broadcast"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6eea9778-0a1f-4415-8b8f-03fb55e58d08"
+              LastKnownName="New Broadcast"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33e0ef8a-eff8-4b4c-879f-6e7d2cc13146"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a44efd4-0e69-481c-93e2-8beb30c9c538"
+                  name="New Broadcast"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f1113e5d-2298-405d-9f04-e62d47c673cc"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Settings"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4fde0667-c261-4df9-bd56-a81546adcbdc"
+              LastKnownName="Settings"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="db352764-fea0-473e-974f-5790b4ed5146"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3844dcf-edfe-40a3-bbfe-49d63d550bdf"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+        name="Messaging App"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5f0bbdce-7736-4738-b9b9-f4d52bb896f0"
+        name="Chats"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc675764-ccab-478e-afbf-cd3abb93d32c"
+        name="Status"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ce80086f-cff7-4b42-b95b-4a01f7beafcc"
+        name="Calls"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f24d1b5b-15ed-467f-a664-f686c9efbddf"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6d4bba66-d708-42f8-83bc-decee66f773c"
+        name="Add Chat"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="8af0f941-bd26-4a0d-992d-4643c2540cfa">
+            <useCaseMoniker
+              Id="5f0bbdce-7736-4738-b9b9-f4d52bb896f0"
+              LastKnownName="Chats"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f796706-9d63-4c71-89ed-a20b750775dc"
+        name="New Group"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6eea9778-0a1f-4415-8b8f-03fb55e58d08"
+        name="New Broadcast"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="465dbbb7-a8e6-420e-b9c2-9582c5251fb5"
+        name="Starred messages"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="116c4b05-43b8-47cf-b744-6ea873903d7e"
+        name="Search"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="0b176a18-36d0-4aed-a4e3-e34a7035aea7">
+            <useCaseMoniker
+              Id="5f0bbdce-7736-4738-b9b9-f4d52bb896f0"
+              LastKnownName="Chats"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4fde0667-c261-4df9-bd56-a81546adcbdc"
+        name="Settings"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="af3e98a4-9edb-4957-bcd7-954cca783409"
+        name="Contacts"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f4457fb0-96f6-4fc1-82e5-ab02b3765315">
+            <useCaseMoniker
+              Id="5f0bbdce-7736-4738-b9b9-f4d52bb896f0"
+              LastKnownName="Chats"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="9ad71e90-0def-41ea-97f3-e78877840743">
+            <useCaseMoniker
+              Id="ce80086f-cff7-4b42-b95b-4a01f7beafcc"
+              LastKnownName="Calls"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="958d64c4-e20a-4597-8627-3dc762d9fce0">
+            <useCaseMoniker
+              Id="4f796706-9d63-4c71-89ed-a20b750775dc"
+              LastKnownName="New Group"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="d85a6c3f-9a9d-44a2-bf7e-7e36dc2f6893">
+            <useCaseMoniker
+              Id="6eea9778-0a1f-4415-8b8f-03fb55e58d08"
+              LastKnownName="New Broadcast"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="66d8409c-5bde-4638-a05d-e07a410d019f">
+            <useCaseMoniker
+              Id="dc675764-ccab-478e-afbf-cd3abb93d32c"
+              LastKnownName="Status"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="95e44318-ffd6-49cf-93d5-33edf877860d"
+            LastKnownName="Messaging App"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
