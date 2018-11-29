@@ -1,0 +1,1 @@
+This application allows users to send texts, documents, photos, videos, contact information, and group messages using different forms of Internet acceandroid users, thus providing an alternative to standard messaging for most users with devices running the latest android versions.
